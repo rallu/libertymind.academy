@@ -1,4 +1,6 @@
-var topcontent = document.getElementById("topcontent");
 var videotag = document.getElementById("bgvideo");
-videotag.playbackRate = 1;
 videotag.play();
+videotag.addEventListener('ended', function() {
+    videotag.currentTime = 0.1;
+    videotag.play();
+});
