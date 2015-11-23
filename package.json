@@ -1,0 +1,14 @@
+{
+  "name": "libertymind.academy",
+  "version": "1.0.0",
+  "description": "Public website of http://libertymind.academy",
+  "scripts": {
+    "sync": "aws s3 sync . s3://libertymind.academy/ --exclude 'node_modules/*'"
+  },
+  "author": "Juha-Pekka Rajaniemi",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-pleeease": "^1.2.0",
+    "gulp-sass": "^2.0.4"
+  }
+}
