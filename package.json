@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Public website of http://libertymind.academy",
   "scripts": {
-    "sync": "aws s3 sync . s3://libertymind.academy/ --exclude 'node_modules/*'"
+    "sync": "aws s3 sync . s3://libertymind.academy/ --exclude 'node_modules/*' --exclude '.git/*'"
   },
   "author": "Juha-Pekka Rajaniemi",
   "devDependencies": {
