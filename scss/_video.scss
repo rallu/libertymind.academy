@@ -4,6 +4,8 @@
     left: 0;
     right: 0;
     bottom: 0;
+    background: url('static/goldvideo.jpg') no-repeat;
+    background-size: cover;
 }
  #video-bg > video {
     position: fixed;
