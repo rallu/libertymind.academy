@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6 {
     background: $color-secondary-2-3;
     color: $color-secondary-1-1;
     padding: 15px 30px;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -58,6 +58,9 @@ h1,h2,h3,h4,h5,h6 {
     text-decoration: none;
     font-family: $font-family-strong;
     line-height: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    border-radius: 2px;
 
     i {
         font-size: 1.2em;
@@ -67,6 +70,17 @@ h1,h2,h3,h4,h5,h6 {
 
     &:hover {
         background: $color-secondary-2-2;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    }
+
+    &.facebook {
+        background: #3B5998;
+        color: white;
+        border: 2px solid #3B5990;
+
+        &:hover {
+            border: 2px solid white;
+        }
     }
 }
 
@@ -95,6 +109,16 @@ h1,h2,h3,h4,h5,h6 {
         @media (min-width: 1500px) {
             height: 500px;
             background-position: 70% 90%;
+        }
+    }
+
+    &.img3 {
+        background-position: 70% 50%;
+        background-image: url('static/auringonlasku.jpg');
+        height: 350px;
+
+        @media (min-width: 1500px) {
+            height: 500px;
         }
     }
 
