@@ -46,6 +46,10 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+}
+
 .button {
     background: $color-secondary-2-3;
     color: $color-secondary-1-1;
