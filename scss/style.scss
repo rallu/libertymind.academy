@@ -283,9 +283,11 @@ body.liberaalivaltio {
             text-align: center;
         }
         img {
-            display: none;
+            display: block;
             max-width: 250px;
             margin: 0 auto;
+            box-shadow: 4px 4px 5px rgba(0,0,0,0.2);
+            border-radius: 4px;
         }
     }
 
